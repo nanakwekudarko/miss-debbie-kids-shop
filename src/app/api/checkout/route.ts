@@ -1,10 +1,19 @@
 import { stripe } from '@/lib/stripe';
 import { NextRequest, NextResponse } from 'next/server';
 
-export async function POST(req: NextRequest) {
-  const { cart } = await req.json();
+interface CartItem {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  description: string;
+  quantity: number;
+}
 
-  const lineItems = cart.map((item: any) => ({
+export async function POST(req: NextRequest) {
+  const { cart }: { cart: CartItem[] } = await req.json();
+
+  const lineItems = cart.map((item: CartItem) => ({
     price_data: {
       currency: 'usd',
       product_data: {
