@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Baby Onesie",
+    "price": 15.99,
+    "image": "/images/onesie.jpg",
+    "description": "A soft and comfortable onesie for your little one."
+  },
+  {
+    "id": 2,
+    "name": "Plush Toy",
+    "price": 12.99,
+    "image": "/images/toy.jpg",
+    "description": "A cute and cuddly plush toy for hours of fun."
+  },
+  {
+    "id": 3,
+    "name": "Baby Blanket",
+    "price": 25.99,
+    "image": "/images/blanket.jpg",
+    "description": "A warm and cozy blanket to keep your baby comfortable."
+  }
+]
