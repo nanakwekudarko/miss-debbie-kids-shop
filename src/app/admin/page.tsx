@@ -94,7 +94,7 @@ export default function AdminPage() {
             {products.map((product) => (
               <div key={product.id} className="border p-4 rounded">
                 <h3 className="text-xl font-bold">{product.name}</h3>
-                <p>${product.price.toFixed(2)}</p>
+                <p>GH¢{product.price.toFixed(2)}</p>
               </div>
             ))}
           </div>

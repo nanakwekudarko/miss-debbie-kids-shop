@@ -2,22 +2,99 @@
   {
     "id": 1,
     "name": "Baby Onesie",
-    "price": 15.99,
-    "image": "/images/onesie.jpg",
+    "price": 149.99,
+    "image": "/images/baby_onesie.jpg",
     "description": "A soft and comfortable onesie for your little one."
   },
   {
     "id": 2,
     "name": "Plush Toy",
-    "price": 12.99,
-    "image": "/images/toy.jpg",
+    "price": 119.99,
+    "image": "/images/Baby_plush_toy.jpg",
     "description": "A cute and cuddly plush toy for hours of fun."
   },
   {
     "id": 3,
-    "name": "Baby Blanket",
-    "price": 25.99,
-    "image": "/images/blanket.jpg",
-    "description": "A warm and cozy blanket to keep your baby comfortable."
+    "name": "Portable Baby Bed",
+    "price": 249.99,
+    "image": "/images/baby_bed.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 4,
+    "name": "Feeding Bottle",
+    "price": 199.99,
+    "image": "/images/baby_feeding_bottle.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 5,
+    "name": "Aveeno Baby Lotion",
+    "price": 149.99,
+    "image": "/images/baby_lotion1.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 6,
+    "name": "Lanoline Baby Glow",
+    "price": 299.99,
+    "image": "/images/baby_lotion2.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 7,
+    "name": "Baby Wipes",
+    "price": 99.99,
+    "image": "/images/baby_wipes.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 8,
+    "name": "Baby Molfix Diapers",
+    "price": 150,
+    "image": "/images/baby_diapers.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 9,
+    "name": "Baby Sterilising Tablet",
+    "price": 300,
+    "image": "/images/baby_sterilizing_tablet.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 10,
+    "name": "Baby Bathing Gel",
+    "price": 15,
+    "image": "/images/baby_bath_gel.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 11,
+    "name": "Baby Rice Pudding",
+    "price": 110,
+    "image": "/images/baby_rice_pudding.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 12,
+    "name": "Baby Aptamil Milk",
+    "price": 120,
+    "image": "/images/baby_milk.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 13,
+    "name": "Baby Medisoft Soap",
+    "price": 200,
+    "image": "/images/baby_soap2.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
+  },
+  {
+    "id": 14,
+    "name": "Baby Storage Box",
+    "price": 500,
+    "image": "/images/baby_storage_box.jpg",
+    "description": "A warm and cozy bed to keep your baby comfortable."
   }
 ]

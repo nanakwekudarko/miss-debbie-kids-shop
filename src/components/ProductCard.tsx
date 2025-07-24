@@ -16,7 +16,7 @@ export default function ProductCard({ product }: { product: Product }) {
         <div>
           <Image src={product.image} alt={product.name} width={300} height={300} className="w-full h-48 object-cover mb-4" />
           <h2 className="text-xl font-bold">{product.name}</h2>
-          <p className="text-gray-600">${product.price.toFixed(2)}</p>
+          <p className="text-gray-600">GH¢{product.price.toFixed(2)}</p>
         </div>
       </Link>
     </div>

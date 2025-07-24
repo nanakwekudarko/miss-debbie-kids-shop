@@ -45,7 +45,7 @@ export default function CartPage() {
                 <Image src={item.image} alt={item.name} width={100} height={100} className="w-24 h-24 object-cover rounded-lg" />
                 <div>
                   <h2 className="text-xl font-bold">{item.name}</h2>
-                  <p className="text-gray-600">${item.price.toFixed(2)}</p>
+                  <p className="text-gray-600">GH¢{item.price.toFixed(2)}</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -63,7 +63,7 @@ export default function CartPage() {
             </div>
           ))}
           <div className="text-right text-2xl font-bold mt-8">
-            Total: ${totalPrice.toFixed(2)}
+            Total: GH¢{totalPrice.toFixed(2)}
           </div>
         </div>
       )}

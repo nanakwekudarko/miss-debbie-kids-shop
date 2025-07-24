@@ -4,7 +4,13 @@ import products from '@/data/products.json';
 import Image from 'next/image';
 import { useCartContext } from '@/components/CartProvider';
 
-export default function ProductDetailPage({ params }: { params: { id: string } }) {
+type ProductDetailPageProps = {
+  params: {
+    id: string;
+  };
+};
+
+export default function ProductDetailPage({ params }: ProductDetailPageProps) {
   const { addToCart } = useCartContext();
   const product = products.find((p) => p.id === parseInt(params.id));
 
@@ -20,7 +26,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
         </div>
         <div>
           <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
-          <p className="text-xl text-gray-800 mb-4">${product.price.toFixed(2)}</p>
+          <p className="text-xl text-gray-800 mb-4">GH¢{product.price.toFixed(2)}</p>
           <p className="text-gray-600 mb-8">{product.description}</p>
           <button
             onClick={() => addToCart(product)}
